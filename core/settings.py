@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     'rest_framework',
     # project apps
     'apps.character',
-    'apps.movie'
+    'apps.film',
+    'apps.planet'
 ]
 
 MIDDLEWARE = [
