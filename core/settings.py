@@ -10,7 +10,9 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.1/ref/settings/
 """
 
+import os
 from pathlib import Path
+import dotenv
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -20,7 +22,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-g&mr5k-keozpak!bz0!42k)#7o3p(t*31a(x5gybg7tlr@w3y7'
+SECRET_KEY = os.getenv('STAR_WARS_SECRET_KEY')
+if SECRET_KEY is None:
+    config = dotenv.dotenv_values(BASE_DIR / '.env')
+    SECRET_KEY = config['STAR_WARS_SECRET_KEY']
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -40,6 +45,7 @@ INSTALLED_APPS = [
     # third-party apps
     'drf_yasg',
     'rest_framework',
+    'django_filters',
     # project apps
     'apps.character',
     'apps.film',

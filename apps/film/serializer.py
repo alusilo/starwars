@@ -1,25 +1,24 @@
 from rest_framework import serializers
-from apps.film.models import Film, FilmDirector, FilmProducer, FilmPlanet
+from apps.film.models import Film, Director, Producer
+from apps.planet.serializer import PlanetSerializer
+
+
+class DirectorSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Director
+        fields = '__all__'
+
+
+class ProducerSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Producer
+        fields = '__all__'
+
 
 class FilmSerializer(serializers.ModelSerializer):
+    director = DirectorSerializer()
+    producers = ProducerSerializer(many=True)
+    planets = PlanetSerializer(many=True)
     class Meta:
         model = Film
-        fields = '__all__'
-
-
-class FilmDirectorSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = FilmDirector
-        fields = '__all__'
-
-
-class FilmProducerSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = FilmProducer
-        fields = '__all__'
-
-
-class FilmPlanetSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = FilmPlanet
         fields = '__all__'

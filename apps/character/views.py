@@ -1,20 +1,21 @@
 from django.core.exceptions import ObjectDoesNotExist
 from rest_framework import status
 from rest_framework.views import APIView
+from rest_framework.generics import ListAPIView
 from rest_framework.response import Response
+from django_filters.rest_framework import DjangoFilterBackend
 from apps.character.models import Character
 from apps.character.serializer import CharacterSerializer
+from apps.character.filters import CharacterFilter
+
 
 # Create your views here.
-class CharacterListView(APIView):
-    def get(self, request):
-        name_contains = request.query_params.get('name')
-        if name_contains is None:
-            characters = Character.objects.all()
-        else:
-            characters = Character.objects.filter(name__contains=name_contains).values()
-        serializer = CharacterSerializer(characters, many=True)
-        return Response(serializer.data)
+class CharacterListView(ListAPIView):
+    queryset = characters = Character.objects.all()
+    serializer_class = CharacterSerializer
+    filterset_class = CharacterFilter
+    filter_backends = [DjangoFilterBackend]
+    filterset_fields = ['name']
 
 
 class CharacterCreate(APIView):
@@ -37,6 +38,7 @@ class CharacterRUD(APIView):
     
     def get(self, request, pk):
         character = self.get_character_by_pk(pk)
+        print(character)
         if character is None:
             return Response({'error': 'Character does not exist'}, status=status.HTTP_404_NOT_FOUND)
         serializer = CharacterSerializer(character)
