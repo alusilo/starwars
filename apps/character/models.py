@@ -1,9 +1,10 @@
+from enum import unique
 from django.db import models
 from apps.planet.models import Planet
 
 # Create your models here.
 class Character(models.Model):
-    name = models.CharField(max_length=200)
+    name = models.CharField(max_length=200, unique=True)
     height = models.FloatField()
     description = models.CharField(max_length=500)
     home_planet = models.ForeignKey(Planet, on_delete=models.CASCADE)
