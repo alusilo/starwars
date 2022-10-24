@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 """
 
 import os
+import sys
 from pathlib import Path
 import dotenv
 
@@ -24,8 +25,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = os.getenv('STAR_WARS_SECRET_KEY')
 if SECRET_KEY is None:
-    config = dotenv.dotenv_values(BASE_DIR / '.env')
-    SECRET_KEY = config['STAR_WARS_SECRET_KEY']
+    try:
+        config = dotenv.dotenv_values(BASE_DIR / '.env')
+        SECRET_KEY = config['STAR_WARS_SECRET_KEY']
+    except KeyError:
+        print("STAR_WARS_SECRET_KEY environment variable is not set.")
+        sys.exit(0)
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -46,6 +51,7 @@ INSTALLED_APPS = [
     'drf_yasg',
     'rest_framework',
     'django_filters',
+    'rest_framework.authtoken',
     # project apps
     'apps.character',
     'apps.film',
@@ -112,6 +118,30 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+# Rest framework
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+               'rest_framework.authentication.TokenAuthentication',
+    ),
+    'DEFAULT_PERMISSION_CLASSES':(
+                'rest_framework.permissions.IsAuthenticated',
+    ),
+
+}
+
+# Swagger
+SWAGGER_SETTINGS = {
+    'SECURITY_DEFINITIONS': {
+        'Basic': {
+            'type': 'basic'
+        },
+        'Bearer': {
+            'type': 'apiKey',
+            'name': 'Authorization',
+            'in': 'header'
+        }
+    }
+}
 
 # Internationalization
 # https://docs.djangoproject.com/en/4.1/topics/i18n/

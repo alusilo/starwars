@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from apps.film.models import Film, Director, Producer
+from apps.film.models import Film, Director, ProductionCompany
 from apps.planet.serializer import PlanetSerializer
 
 
@@ -9,16 +9,13 @@ class DirectorSerializer(serializers.ModelSerializer):
         fields = '__all__'
 
 
-class ProducerSerializer(serializers.ModelSerializer):
+class ProductionCompanySerializer(serializers.ModelSerializer):
     class Meta:
-        model = Producer
+        model = ProductionCompany
         fields = '__all__'
 
 
 class FilmSerializer(serializers.ModelSerializer):
-    director = DirectorSerializer()
-    producers = ProducerSerializer(many=True)
-    planets = PlanetSerializer(many=True)
     class Meta:
         model = Film
         fields = '__all__'

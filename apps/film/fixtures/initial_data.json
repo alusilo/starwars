@@ -1,0 +1,810 @@
+[
+    {
+        "model": "film.director",
+        "pk": 1,
+        "fields": {
+            "first_name": "Jeffrey Jacob",
+            "last_name": "Abrams",
+            "description": "Jeffrey Jacob Abrams (born June 27, 1966) is an American filmmaker and composer. He is best known for his works in the genres of action, drama, and science fiction. Abrams wrote and produced such films as Regarding Henry (1991), Forever Young (1992), Armageddon (1998), Cloverfield (2008), Star Trek (2009), Star Wars: The Force Awakens (2015), and Star Wars: The Rise of Skywalker (2019)."
+        }
+    },
+    {
+        "model": "film.director",
+        "pk": 2,
+        "fields": {
+            "first_name": "Gareth",
+            "last_name": "Edwards",
+            "description": "Gareth James Edwards (born 13 July 1975) is a British filmmaker. He first gained widespread recognition for Monsters (2010), an independent film in which he served as writer, director, cinematographer, and visual effects artist. He subsequently directed Godzilla (2014), a reboot[3] of Toho's Godzilla franchise and the first film in Legendary's MonsterVerse, and Rogue One: A Star Wars Story (2016), the first installment of the Star Wars anthology series and an immediate prequel to Star Wars: Episode IV - A New Hope (1977)."
+        }
+    },
+    {
+        "model": "film.director",
+        "pk": 3,
+        "fields": {
+            "first_name": "George Walton",
+            "last_name": "Lucas",
+            "description": "George Walton Lucas Jr. (born May 14, 1944) is an American filmmaker. Lucas is best known for creating the Star Wars and Indiana Jones franchises and founding Lucasfilm, LucasArts, and Industrial Light & Magic. He served as chairman of Lucasfilm before selling it to The Walt Disney Company in 2012. Lucas is one of history's most financially successful filmmakers and has been nominated for four Academy Awards. His films are among the 100 highest-grossing movies at the North American box office, adjusted for ticket-price inflation. Lucas is considered to be one of the most significant figures of the 20th-century New Hollywood movement, and a pioneer of the modern blockbuster."
+        }
+    },
+    {
+        "model": "film.director",
+        "pk": 4,
+        "fields": {
+            "first_name": "Irvin",
+            "last_name": "Kershner",
+            "description": "Irvin Kershner (born Isadore Kershner; April 29, 1923 - November 27, 2010) was an American director, actor, and producer of film and television. He gained notice early in his career as a filmmaker for directing quirky, independent drama films, while working as an influential lecturer at the University of Southern California. Later in his career, he transitioned to high-budget blockbusters such as The Empire Strikes Back, the James Bond adaptation Never Say Never Again, and RoboCop 2. Through the course of his career, he received numerous accolades, and was nominated for both a Primetime Emmy Award and a Palme d'Or."
+        }
+    },
+    {
+        "model": "film.director",
+        "pk": 5,
+        "fields": {
+            "first_name": "Rian",
+            "last_name": "Johnson",
+            "description": "Rian Craig Johnson (born December 17, 1973) is an American filmmaker. He made his directorial debut with the neo-noir mystery film Brick (2005), which received positive reviews and grossed nearly $4 million on a $450,000 budget. Transitioning to higher-profile films, Johnson achieved mainstream recognition for writing and directing the science-fiction thriller Looper (2012) to critical and commercial success. Johnson landed his largest project when he wrote and directed the space opera Star Wars: The Last Jedi (2017), which grossed over $1 billion. He returned to the mystery genre with Knives Out (2019), earning him an Academy Award nomination for Best Original Screenplay."
+        }
+    },
+    {
+        "model": "film.director",
+        "pk": 6,
+        "fields": {
+            "first_name": "Richard Alfred",
+            "last_name": "Marquand",
+            "description": "Richard Alfred Marquand (22 September 1937 - 4 September 1987) was a British film and television director active in both US and UK film productions, best known for directing 1983's Return of the Jedi. He also directed the critically acclaimed 1981 drama film Eye of the Needle, the quiet Paris set romance Until September, and the hit 1985 thriller Jagged Edge."
+        }
+    },
+    {
+        "model": "film.director",
+        "pk": 7,
+        "fields": {
+            "first_name": "Ronald William",
+            "last_name": "Howard",
+            "description": "Ronald William Howard (born March 1, 1954) is an American director, producer, screenwriter, and actor. He first came to prominence as a child actor, guest-starring in several television series, including an episode of The Twilight Zone. He gained national attention for playing young Opie Taylor, the son of Sheriff Andy Taylor (played by Andy Griffith) in the sitcom The Andy Griffith Show from 1960 through 1968. During this time, he also appeared in the musical film The Music Man (1962), a critical and commercial success. He was credited as Ronny Howard in his film and television appearances from 1959 to 1973. Howard was cast in one of the lead roles in the coming-of-age film American Graffiti (1973), and became a household name for playing Richie Cunningham in the sitcom Happy Days, a role he would play from 1974 to 1980."
+        }
+    },
+    {
+        "model": "film.productioncompany",
+        "pk": 1,
+        "fields": {
+            "name": "Lucasfilm",
+            "description": "Lucasfilm Ltd. LLC is an American film and television production company and a subsidiary of Walt Disney Studios, which is a business segment of The Walt Disney Company. The studio is best known for creating and producing the Star Wars and Indiana Jones franchises, as well as its leadership in developing special effects, sound, and computer animation for films. Lucasfilm was founded by filmmaker George Lucas in 1971 in San Rafael, California; most of the company's operations were moved to San Francisco in 2005. Disney acquired Lucasfilm on October 30, 2012, for $4.05 billion in the form of cash and stock, with $1.855 billion in stock."
+        }
+    },
+    {
+        "model": "film.productioncompany",
+        "pk": 2,
+        "fields": {
+            "name": "20th Century Studios",
+            "description": "20th Century Studios is an American film production company headquartered at the Fox Studio Lot in the Century City area of Los Angeles. As of 2019, it serves as a film production label of Walt Disney Studios, a division of The Walt Disney Company. Walt Disney Studios Motion Pictures distributes and markets the films produced by 20th Century Studios."
+        }
+    },
+    {
+        "model": "film.productioncompany",
+        "pk": 3,
+        "fields": {
+            "name": "Walt Disney Pictures",
+            "description": "Walt Disney Pictures is an American film production company and subsidiary of Walt Disney Studios, which is owned by The Walt Disney Company. The studio is the flagship producer of live-action feature films within the Walt Disney Studios unit, and is based at the Walt Disney Studios in Burbank, California. Animated films produced by Walt Disney Animation Studios and Pixar Animation Studios are also released under the studio banner. Walt Disney Studios Motion Pictures distributes and markets the films produced by Walt Disney Pictures."
+        }
+    },
+    {
+        "model": "film.productioncompany",
+        "pk": 4,
+        "fields": {
+            "name": "Bad Robot Productions",
+            "description": "Bad Robot is an American film and television production company founded on May 27, 1999 and led by J. J. Abrams and Katie McGrath as Co-CEO. Under its Bad Robot Productions division, the company is responsible for the television series Alias, Lost, Fringe, Person of Interest, Revolution, and Westworld alongside the feature-length films Cloverfield, Star Trek, Super 8, Star Trek Into Darkness, Mission: Impossible - Ghost Protocol, Mission: Impossible - Rogue Nation, Star Wars Episodes VII and IX, 10 Cloverfield Lane, Star Trek Beyond, The Cloverfield Paradox, Mission: Impossible - Fallout, and Overlord."
+        }
+    },
+    {
+        "model": "film.productioncompany",
+        "pk": 5,
+        "fields": {
+            "name": "Ram Bergman",
+            "description": "Ram Bergman is an Israeli film producer. He is known for producing Brick (2005), The Brothers Bloom (2008), Looper (2012), Star Wars: The Last Jedi (2017), and Knives Out (2019), all of which were written and directed by Rian Johnson. Bergman received an Achievement in Film Award at the 2018 Israel Film Festival and was nominated for Outstanding Producer of Theatrical Motion Pictures for Knives Out at the 2020 Producers Guild of America Awards."
+        }
+    },
+    {
+        "model": "film.film",
+        "pk": 1,
+        "fields": {
+            "title": "Star Wars: episodio IV - A New Hope",
+            "description": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vader.",
+            "opening_text": "It is a period of civil war. Rebel spaceships, striking from a hidden base, have won their first victory against the evil Galactic Empire. During the battle, Rebel spies managed to steal secret plans to the Empire’s ultimate weapon, the DEATH STAR, and space station with enough power to destroy an entire planet. Pursued by the Empire’s sinister agents, Princess Leia races home aboard her starship, custodian of the stolen plans that can save her people and restore freedom to the galaxy...",
+            "release_date": "1977-12-25",
+            "director": 3
+        }
+    },
+    {
+        "model": "film.film",
+        "pk": 2,
+        "fields": {
+            "title": "Star Wars: Episode V - The Empire Strikes Back",
+            "description": "After the Rebels are brutally overpowered by the Empire on the ice planet Hoth, Luke Skywalker begins Jedi training with Yoda, while his friends are pursued across the galaxy by Darth Vader and bounty hunter Boba Fett.",
+            "opening_text": "It is a dark time for the Rebellion. Although the Death Star has been destroyed, Imperial troops have driven the Rebel forces from their hidden base and pursued them across the galaxy. Evading the dreaded Imperial Starfleet, a group of freedom fighters led by Luke Skywalker has established a new secret base on the remote ice world of Hoth. The evil lord Darth Vader, obsessed with finding young Skywalker, has dispatched thousands of remote probes into the far reaches of space...",
+            "release_date": "1980-05-21",
+            "director": 4
+        }
+    },
+    {
+        "model": "film.film",
+        "pk": 3,
+        "fields": {
+            "title": "Star Wars: Episode VI - Return of the Jedi",
+            "description": "After a daring mission to rescue Han Solo from Jabba the Hutt, the Rebels dispatch to Endor to destroy the second Death Star. Meanwhile, Luke struggles to help Darth Vader back from the dark side without falling into the Emperor's trap.",
+            "opening_text": "Luke Skywalker has returned to his home planet of Tatooine in an attempt to rescue his friend Han Solo from the clutches of the vile gangster Jabba the Hutt. Little does Luke know that the GALACTIC EMPIRE has secretly begun construction on a new armored space station even more powerful than the first dreaded Death Star. When completed, this ultimate weapon will spell certain doom for the small band of rebels struggling to restore freedom to the galaxy...",
+            "release_date": "1983-05-25",
+            "director": 6
+        }
+    },
+    {
+        "model": "film.film",
+        "pk": 4,
+        "fields": {
+            "title": "Star Wars: Episode I - The Phantom Menace",
+            "description": "Two Jedi escape a hostile blockade to find allies and come across a young boy who may bring balance to the Force, but the long dormant Sith resurface to claim their original glory.",
+            "opening_text": "Turmoil has engulfed the Galactic Republic. The taxation of trade routes to outlying star systems is in dispute. Hoping to resolve the matter with a blockade of deadly battleships, the greedy Trade Federation has stopped all shipping to the small planet of Naboo. While the congress of the Republic endlessly debates this alarming chain of events, the Supreme Chancellor has secretly dispatched two Jedi Knights, the guardians of peace and justice in the galaxy, to settle the conflict...",
+            "release_date": "1999-05-19",
+            "director": 3
+        }
+    },
+    {
+        "model": "film.film",
+        "pk": 5,
+        "fields": {
+            "title": "Star Wars: Episode II - Attack of the Clones",
+            "description": "Ten years after initially meeting, Anakin Skywalker shares a forbidden romance with Padmé Amidala, while Obi-Wan Kenobi investigates an assassination attempt on the senator and discovers a secret clone army crafted for the Jedi.",
+            "opening_text": "There is unrest in the Galactic Senate. Several thousand solar systems have declared their intentions to leave the Republic. This separatist movement, under the leadership of the mysterious Count Dooku, has made it difficult for the limited number of Jedi Knights to maintain peace and order in the galaxy. Senator Amidala, the former Queen of Naboo, is returning to the Galactic Senate to vote on the critical issue of creating an ARMY OF THE REPUBLIC to assist the overwhelmed Jedi...",
+            "release_date": "2002-05-16",
+            "director": 3
+        }
+    },
+    {
+        "model": "film.film",
+        "pk": 6,
+        "fields": {
+            "title": "Star Wars: Episode III - Revenge of the Sith",
+            "description": "Three years into the Clone Wars, the Jedi rescue Palpatine from Count Dooku. As Obi-Wan pursues a new threat, Anakin acts as a double agent between the Jedi Council and Palpatine and is lured into a sinister plan to rule the galaxy.",
+            "opening_text": "War! The Republic is crumbling under attacks by the ruthless Sith Lord, Count Dooku. There are heroes on both sides. Evil is everywhere. In a stunning move, the fiendish droid leader, General Grievous, has swept into the Republic capital and kidnapped Chancellor Palpatine, leader of the Galactic Senate. As the Separatist Droid Army attempts to flee the besieged capital with their valuable hostage, two Jedi Knights lead a desperate mission to rescue the captive Chancellor...",
+            "release_date": "2005-05-19",
+            "director": 3
+        }
+    },
+    {
+        "model": "film.film",
+        "pk": 7,
+        "fields": {
+            "title": "Star Wars: Episode VII - The Force Awakens",
+            "description": "As a new threat to the galaxy rises, Rey, a desert scavenger, and Finn, an ex-stormtrooper, must join Han Solo and Chewbacca to search for the one hope of restoring peace.",
+            "opening_text": "Luke Skywalker has vanished. In his absence, the sinister FIRST ORDER has risen from the ashes of the Empire and will not rest until Skywalker, the last Jedi, has been destroyed. With the support of the REPUBLIC, General Leia Organa leads a brave RESISTANCE. She is desperate to find her brother Luke and gain his help in restoring peace and justice to the galaxy. Leia has sent her most daring pilot on a secret mission to Jakku, where an old ally has discovered a clue to Luke’s whereabouts...",
+            "release_date": "2015-12-18",
+            "director": 1
+        }
+    },
+    {
+        "model": "film.film",
+        "pk": 8,
+        "fields": {
+            "title": "Rogue One: A Star Wars Story",
+            "description": "In a time of conflict, a group of unlikely heroes band together on a mission to steal the plans to the Death Star, the Empire's ultimate weapon of destruction.",
+            "opening_text": "A long time ago, in a galaxy far, far away...",
+            "release_date": "2016-12-16",
+            "director": 2
+        }
+    },
+    {
+        "model": "film.film",
+        "pk": 9,
+        "fields": {
+            "title": "Star Wars: Episode VIII - The Last Jedi",
+            "description": "The Star Wars saga continues as new heroes and galactic legends go on an epic adventure, unlocking mysteries of the Force and shocking revelations of the past.",
+            "opening_text": "The FIRST ORDER reigns. Having decimated the peaceful Republic, Supreme Leader Snoke now deploys his merciless legions to seize military control of the galaxy. Only General Leia Organa’s band of RESISTANCE fighters stand against the rising tyranny, certain that Jedi Master Luke Skywalker will return and restore a spark of hope to the fight. But the Resistance has been exposed. As the First Order speeds toward the rebel base, the brave heroes mount a desperate escape...",
+            "release_date": "2017-12-15",
+            "director": 5
+        }
+    },
+    {
+        "model": "film.film",
+        "pk": 10,
+        "fields": {
+            "title": "Solo: A Star Wars Story",
+            "description": "Board the Millennium Falcon and journey to a galaxy far, far away in an epic action-adventure that will set the course of one of the Star Wars saga's most unlikely heroes.",
+            "opening_text": "It is a lawless time. Crime Syndicates compete for resources – food, medicine, and hyperfuel. On the shipbuilding planet of Corellia, the foul Lady Proxima forces runaways into a life of crime in exchange for shelter and protection. On these mean streets, a young man fights for survival, but yearns to fly among the stars...",
+            "release_date": "2018-05-25",
+            "director": 7
+        }
+    },
+    {
+        "model": "film.film",
+        "pk": 11,
+        "fields": {
+            "title": "Star Wars: Episode IX - The Rise of Skywalker",
+            "description": "In the riveting conclusion of the landmark Skywalker saga, new legends will be born-and the final battle for freedom is yet to come.",
+            "opening_text": "The dead speak! The galaxy has heard a mysterious broadcast, a threat of REVENGE in the sinister voice of the late EMPEROR PALPATINE. GENERAL LEIA ORGANA dispatches secret agents to gather intelligence, while REY, the last hope of the Jedi, trains for battle against the diabolical FIRST ORDER. Meanwhile, Supreme Leader KYLO REN rages in search of the phantom Emperor, determined to destroy any threat to his power...",
+            "release_date": "2019-12-20",
+            "director": 1
+        }
+    },
+    {
+        "model": "film.film_production_companies",
+        "pk": 1,
+        "fields": {
+            "film": 1,
+            "productioncompany": 1
+        }
+    },
+    {
+        "model": "film.film_production_companies",
+        "pk": 2,
+        "fields": {
+            "film": 2,
+            "productioncompany": 1
+        }
+    },
+    {
+        "model": "film.film_production_companies",
+        "pk": 3,
+        "fields": {
+            "film": 3,
+            "productioncompany": 1
+        }
+    },
+    {
+        "model": "film.film_production_companies",
+        "pk": 4,
+        "fields": {
+            "film": 4,
+            "productioncompany": 1
+        }
+    },
+    {
+        "model": "film.film_production_companies",
+        "pk": 5,
+        "fields": {
+            "film": 5,
+            "productioncompany": 1
+        }
+    },
+    {
+        "model": "film.film_production_companies",
+        "pk": 6,
+        "fields": {
+            "film": 6,
+            "productioncompany": 1
+        }
+    },
+    {
+        "model": "film.film_production_companies",
+        "pk": 7,
+        "fields": {
+            "film": 7,
+            "productioncompany": 1
+        }
+    },
+    {
+        "model": "film.film_production_companies",
+        "pk": 8,
+        "fields": {
+            "film": 7,
+            "productioncompany": 4
+        }
+    },
+    {
+        "model": "film.film_production_companies",
+        "pk": 9,
+        "fields": {
+            "film": 8,
+            "productioncompany": 1
+        }
+    },
+    {
+        "model": "film.film_production_companies",
+        "pk": 10,
+        "fields": {
+            "film": 9,
+            "productioncompany": 1
+        }
+    },
+    {
+        "model": "film.film_production_companies",
+        "pk": 11,
+        "fields": {
+            "film": 10,
+            "productioncompany": 1
+        }
+    },
+    {
+        "model": "film.film_production_companies",
+        "pk": 12,
+        "fields": {
+            "film": 11,
+            "productioncompany": 1
+        }
+    },
+    {
+        "model": "film.film_production_companies",
+        "pk": 13,
+        "fields": {
+            "film": 11,
+            "productioncompany": 4
+        }
+    },
+    {
+        "model": "film.film_planets",
+        "pk": 1,
+        "fields": {
+            "film": 1,
+            "planet": 42
+        }
+    },
+    {
+        "model": "film.film_planets",
+        "pk": 2,
+        "fields": {
+            "film": 1,
+            "planet": 2
+        }
+    },
+    {
+        "model": "film.film_planets",
+        "pk": 3,
+        "fields": {
+            "film": 1,
+            "planet": 47
+        }
+    },
+    {
+        "model": "film.film_planets",
+        "pk": 4,
+        "fields": {
+            "film": 2,
+            "planet": 18
+        }
+    },
+    {
+        "model": "film.film_planets",
+        "pk": 5,
+        "fields": {
+            "film": 2,
+            "planet": 10
+        }
+    },
+    {
+        "model": "film.film_planets",
+        "pk": 6,
+        "fields": {
+            "film": 2,
+            "planet": 4
+        }
+    },
+    {
+        "model": "film.film_planets",
+        "pk": 7,
+        "fields": {
+            "film": 3,
+            "planet": 42
+        }
+    },
+    {
+        "model": "film.film_planets",
+        "pk": 8,
+        "fields": {
+            "film": 3,
+            "planet": 10
+        }
+    },
+    {
+        "model": "film.film_planets",
+        "pk": 9,
+        "fields": {
+            "film": 3,
+            "planet": 13
+        }
+    },
+    {
+        "model": "film.film_planets",
+        "pk": 10,
+        "fields": {
+            "film": 3,
+            "planet": 4
+        }
+    },
+    {
+        "model": "film.film_planets",
+        "pk": 11,
+        "fields": {
+            "film": 3,
+            "planet": 30
+        }
+    },
+    {
+        "model": "film.film_planets",
+        "pk": 12,
+        "fields": {
+            "film": 3,
+            "planet": 8
+        }
+    },
+    {
+        "model": "film.film_planets",
+        "pk": 13,
+        "fields": {
+            "film": 4,
+            "planet": 30
+        }
+    },
+    {
+        "model": "film.film_planets",
+        "pk": 14,
+        "fields": {
+            "film": 4,
+            "planet": 8
+        }
+    },
+    {
+        "model": "film.film_planets",
+        "pk": 15,
+        "fields": {
+            "film": 4,
+            "planet": 42
+        }
+    },
+    {
+        "model": "film.film_planets",
+        "pk": 16,
+        "fields": {
+            "film": 5,
+            "planet": 8
+        }
+    },
+    {
+        "model": "film.film_planets",
+        "pk": 17,
+        "fields": {
+            "film": 5,
+            "planet": 30
+        }
+    },
+    {
+        "model": "film.film_planets",
+        "pk": 18,
+        "fields": {
+            "film": 5,
+            "planet": 22
+        }
+    },
+    {
+        "model": "film.film_planets",
+        "pk": 19,
+        "fields": {
+            "film": 5,
+            "planet": 42
+        }
+    },
+    {
+        "model": "film.film_planets",
+        "pk": 20,
+        "fields": {
+            "film": 5,
+            "planet": 16
+        }
+    },
+    {
+        "model": "film.film_planets",
+        "pk": 21,
+        "fields": {
+            "film": 6,
+            "planet": 8
+        }
+    },
+    {
+        "model": "film.film_planets",
+        "pk": 22,
+        "fields": {
+            "film": 6,
+            "planet": 44
+        }
+    },
+    {
+        "model": "film.film_planets",
+        "pk": 23,
+        "fields": {
+            "film": 6,
+            "planet": 23
+        }
+    },
+    {
+        "model": "film.film_planets",
+        "pk": 24,
+        "fields": {
+            "film": 6,
+            "planet": 29
+        }
+    },
+    {
+        "model": "film.film_planets",
+        "pk": 25,
+        "fields": {
+            "film": 6,
+            "planet": 15
+        }
+    },
+    {
+        "model": "film.film_planets",
+        "pk": 26,
+        "fields": {
+            "film": 6,
+            "planet": 6
+        }
+    },
+    {
+        "model": "film.film_planets",
+        "pk": 27,
+        "fields": {
+            "film": 6,
+            "planet": 35
+        }
+    },
+    {
+        "model": "film.film_planets",
+        "pk": 28,
+        "fields": {
+            "film": 6,
+            "planet": 28
+        }
+    },
+    {
+        "model": "film.film_planets",
+        "pk": 29,
+        "fields": {
+            "film": 6,
+            "planet": 34
+        }
+    },
+    {
+        "model": "film.film_planets",
+        "pk": 30,
+        "fields": {
+            "film": 6,
+            "planet": 30
+        }
+    },
+    {
+        "model": "film.film_planets",
+        "pk": 31,
+        "fields": {
+            "film": 6,
+            "planet": 2
+        }
+    },
+    {
+        "model": "film.film_planets",
+        "pk": 32,
+        "fields": {
+            "film": 6,
+            "planet": 42
+        }
+    },
+    {
+        "model": "film.film_planets",
+        "pk": 33,
+        "fields": {
+            "film": 7,
+            "planet": 20
+        }
+    },
+    {
+        "model": "film.film_planets",
+        "pk": 34,
+        "fields": {
+            "film": 7,
+            "planet": 41
+        }
+    },
+    {
+        "model": "film.film_planets",
+        "pk": 35,
+        "fields": {
+            "film": 7,
+            "planet": 38
+        }
+    },
+    {
+        "model": "film.film_planets",
+        "pk": 36,
+        "fields": {
+            "film": 7,
+            "planet": 17
+        }
+    },
+    {
+        "model": "film.film_planets",
+        "pk": 37,
+        "fields": {
+            "film": 7,
+            "planet": 9
+        }
+    },
+    {
+        "model": "film.film_planets",
+        "pk": 38,
+        "fields": {
+            "film": 7,
+            "planet": 1
+        }
+    },
+    {
+        "model": "film.film_planets",
+        "pk": 39,
+        "fields": {
+            "film": 8,
+            "planet": 48
+        }
+    },
+    {
+        "model": "film.film_planets",
+        "pk": 40,
+        "fields": {
+            "film": 8,
+            "planet": 46
+        }
+    },
+    {
+        "model": "film.film_planets",
+        "pk": 41,
+        "fields": {
+            "film": 8,
+            "planet": 8
+        }
+    },
+    {
+        "model": "film.film_planets",
+        "pk": 42,
+        "fields": {
+            "film": 8,
+            "planet": 47
+        }
+    },
+    {
+        "model": "film.film_planets",
+        "pk": 43,
+        "fields": {
+            "film": 8,
+            "planet": 12
+        }
+    },
+    {
+        "model": "film.film_planets",
+        "pk": 44,
+        "fields": {
+            "film": 8,
+            "planet": 28
+        }
+    },
+    {
+        "model": "film.film_planets",
+        "pk": 45,
+        "fields": {
+            "film": 8,
+            "planet": 37
+        }
+    },
+    {
+        "model": "film.film_planets",
+        "pk": 46,
+        "fields": {
+            "film": 9,
+            "planet": 1
+        }
+    },
+    {
+        "model": "film.film_planets",
+        "pk": 47,
+        "fields": {
+            "film": 9,
+            "planet": 5
+        }
+    },
+    {
+        "model": "film.film_planets",
+        "pk": 48,
+        "fields": {
+            "film": 9,
+            "planet": 49
+        }
+    },
+    {
+        "model": "film.film_planets",
+        "pk": 49,
+        "fields": {
+            "film": 10,
+            "planet": 7
+        }
+    },
+    {
+        "model": "film.film_planets",
+        "pk": 50,
+        "fields": {
+            "film": 10,
+            "planet": 50
+        }
+    },
+    {
+        "model": "film.film_planets",
+        "pk": 51,
+        "fields": {
+            "film": 10,
+            "planet": 27
+        }
+    },
+    {
+        "model": "film.film_planets",
+        "pk": 52,
+        "fields": {
+            "film": 10,
+            "planet": 45
+        }
+    },
+    {
+        "model": "film.film_planets",
+        "pk": 53,
+        "fields": {
+            "film": 10,
+            "planet": 24
+        }
+    },
+    {
+        "model": "film.film_planets",
+        "pk": 54,
+        "fields": {
+            "film": 10,
+            "planet": 36
+        }
+    },
+    {
+        "model": "film.film_planets",
+        "pk": 55,
+        "fields": {
+            "film": 10,
+            "planet": 31
+        }
+    },
+    {
+        "model": "film.film_planets",
+        "pk": 56,
+        "fields": {
+            "film": 11,
+            "planet": 51
+        }
+    },
+    {
+        "model": "film.film_planets",
+        "pk": 57,
+        "fields": {
+            "film": 11,
+            "planet": 33
+        }
+    },
+    {
+        "model": "film.film_planets",
+        "pk": 58,
+        "fields": {
+            "film": 11,
+            "planet": 25
+        }
+    },
+    {
+        "model": "film.film_planets",
+        "pk": 59,
+        "fields": {
+            "film": 11,
+            "planet": 13
+        }
+    },
+    {
+        "model": "film.film_planets",
+        "pk": 60,
+        "fields": {
+            "film": 11,
+            "planet": 14
+        }
+    }
+]
