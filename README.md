@@ -16,7 +16,13 @@ This will install the following Python libraries:
 - python-dotenv (version = 0.21.0)
 - django-filter (version = 21.1)
 
-After installing requirements we have to create tables in database:
+After installing requirements we have to set up the system by adding a environment variable, from where is taken the secret key of the application. This is donde as follows:
+
+```console
+$ export STAR_WARS_SECRET_KEY="secret key"
+```
+
+After setting up the system we have to create tables in database:
 
 ```console
 $ python manage.py makemigrations character film planet
