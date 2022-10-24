@@ -5,17 +5,19 @@ from apps.planet.models import Planet
 class Director(models.Model):
     first_name = models.CharField(max_length=200)
     last_name = models.CharField(max_length=200)
+    description = models.TextField()
 
 
-class Producer(models.Model):
-    first_name = models.CharField(max_length=200)
-    last_name = models.CharField(max_length=200)
+class ProductionCompany(models.Model):
+    name = models.CharField(max_length=200)
+    description = models.TextField()
 
 
 class Film(models.Model):
-    title = models.CharField(max_length=200)
-    description = models.CharField(max_length=500)
+    title = models.CharField(max_length=200, unique=True)
+    description = models.TextField()
+    opening_text = models.TextField()
     release_date = models.DateField()
     director = models.ForeignKey(Director, on_delete=models.CASCADE)
-    producers = models.ManyToManyField(Producer)
+    production_companies = models.ManyToManyField(ProductionCompany)
     planets = models.ManyToManyField(Planet)

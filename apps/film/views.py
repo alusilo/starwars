@@ -2,8 +2,8 @@ from django.core.exceptions import ObjectDoesNotExist
 from rest_framework import status
 from rest_framework.views import APIView
 from rest_framework.response import Response
-from apps.film.models import Film, Director, Producer
-from apps.film.serializer import FilmSerializer, DirectorSerializer, ProducerSerializer
+from apps.film.models import Film, Director, ProductionCompany
+from apps.film.serializer import FilmSerializer, DirectorSerializer, ProductionCompanySerializer
 
 # Create your views here.
 # Film
@@ -108,17 +108,17 @@ class DirectorRUD(APIView):
         return Response(status=status.HTTP_204_NO_CONTENT)
 
 
-# Producer
-class ProducerListView(APIView):
+# Production COnpany
+class ProductionCompanyListView(APIView):
     def get(self, request):
-        producers = Producer.objects.all()
-        serializer = ProducerSerializer(producers, many=True)
+        production_companies = ProductionCompany.objects.all()
+        serializer = ProductionCompanySerializer(production_companies, many=True)
         return Response(serializer.data)
 
 
-class ProducerCreate(APIView):
+class ProductionCompanyCreate(APIView):
     def post(self, request):
-        serializer = ProducerSerializer(data=request.data)
+        serializer = ProductionCompanySerializer(data=request.data)
         if serializer.is_valid():
             serializer.save()
             return Response(serializer.data)
@@ -126,34 +126,34 @@ class ProducerCreate(APIView):
             return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 
-class ProducerRUD(APIView):
-    def get_producer_by_pk(self, pk):
+class ProductionCompanyRUD(APIView):
+    def get_production_company_by_pk(self, pk):
         try:
-            producer = Producer.objects.get(pk=pk)
+            production_company = ProductionCompany.objects.get(pk=pk)
         except ObjectDoesNotExist:
-            producer = None
-        return producer
+            production_company = None
+        return production_company
     
     def get(self, request, pk):
-        producer = self.get_producer_by_pk(pk)
-        if producer is None:
-            return Response({'error': 'Producer does not exist'}, status=status.HTTP_404_NOT_FOUND)
-        serializer = ProducerSerializer(producer)
+        production_company = self.get_production_company_by_pk(pk)
+        if production_company is None:
+            return Response({'error': 'Production Company does not exist'}, status=status.HTTP_404_NOT_FOUND)
+        serializer = ProductionCompanySerializer(production_company)
         return Response(serializer.data)
     
     def put(self, request, pk):
-        producer = self.get_producer_by_pk(pk)
-        if producer is None:
-            return Response({'error': 'Producer does not exist'}, status=status.HTTP_404_NOT_FOUND)
-        serializer = ProducerSerializer(producer, data=request.data)
+        production_company = self.get_production_company_by_pk(pk)
+        if production_company is None:
+            return Response({'error': 'Production Company does not exist'}, status=status.HTTP_404_NOT_FOUND)
+        serializer = ProductionCompanySerializer(production_company, data=request.data)
         if serializer.is_valid():
             serializer.save()
             return Response(serializer.data)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
     
     def delete(self, request, pk):
-        producer = self.get_producer_by_pk(pk)
-        if producer is None:
-            return Response({'error': 'Producer does not exist'}, status=status.HTTP_404_NOT_FOUND)
-        producer.delete()
+        production_company = self.get_production_company_by_pk(pk)
+        if production_company is None:
+            return Response({'error': 'Production Company does not exist'}, status=status.HTTP_404_NOT_FOUND)
+        production_company.delete()
         return Response(status=status.HTTP_204_NO_CONTENT)

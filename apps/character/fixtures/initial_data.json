@@ -1,0 +1,1345 @@
+[
+    {
+        "model": "character.character",
+        "pk": 1,
+        "fields": {
+            "name": "Anakin Skywalker",
+            "gender": "Male",
+            "specie": "Human",
+            "height": 1.88,
+            "description": "Discovered as a slave on Tatooine by Qui-Gon Jinn and Obi-Wan Kenobi, Anakin Skywalker had the potential to become one of the most powerful Jedi ever. Some even believed he was the prophesied Chosen One who would bring balance to the Force. Always pushing the limits of his Jedi training, seeking to excel and live up to his reputation, Skywalker's passion often brought him into conflict with his mentor, Jedi Master Obi-Wan Kenobi. A hero of the Clone Wars, Anakin was caring and compassionate, but suffered from a deep fear of loss that would prove to be his downfall."
+        }
+    },
+    {
+        "model": "character.character",
+        "pk": 2,
+        "fields": {
+            "name": "Admiral Ackbar",
+            "gender": "Male",
+            "specie": "Mon Calamari",
+            "height": 1.8,
+            "description": "A veteran commander, Ackbar led the defense of his homeworld, Mon Cala, during the Clone Wars and then masterminded the rebel attack on the second Death Star at the Battle of Endor. Ackbar realized the rebels had been drawn into a trap at Endor, but adjusted, with his fleet buying valuable time for the attack to succeed. After the Battle of Endor, Ackbar became a Grand Admiral in the New Republic, winning many victories including the pivotal Battle of Jakku. He retired to Mon Cala, but was coaxed back into service with the Resistance by Leia Organa."
+        }
+    },
+    {
+        "model": "character.character",
+        "pk": 3,
+        "fields": {
+            "name": "Stass Allie",
+            "gender": "Female",
+            "specie": "Tholothians",
+            "height": 1.8,
+            "description": "A Tholothian member of the Jedi Council, Stass Allie served as a Jedi General during the Clone Wars, beginning with the Jedi mission to rescue Obi-Wan Kenobi and Anakin Skywalker from execution on Geonosis. Stass led clone troopers into battle on many worlds, culminating with the Outer Rim Sieges. She was piloting her BARC speeder on Saleucami when Darth Sidious issued Order 66 to her wingman, Commander Neyo. Obeying orders, Neyo and another clone trooper dropped behind Stass and blew her speeder bike out of the sky."
+        }
+    },
+    {
+        "model": "character.character",
+        "pk": 4,
+        "fields": {
+            "name": "Mas Amedda",
+            "gender": "Male",
+            "specie": "Chagrian",
+            "height": 1.96,
+            "description": "Mas Amedda was the Vice Chair of the Galactic Senate during Chancellor Valorum's term, a position he continued to hold as Chancellor Palpatine transformed the Republic into the Galactic Empire. Amedda's booming voice often called for order when the partisan nature of the Republic's government degenerated into pointless bickering. In an alien gesture of authority, he would often punctuate such calls with a flicker of his long, forked tongue."
+        }
+    },
+    {
+        "model": "character.character",
+        "pk": 5,
+        "fields": {
+            "name": "Padmé Amidala",
+            "gender": "Female",
+            "specie": "Human",
+            "height": 1.65,
+            "description": "Padmé Amidala was a courageous, hopeful leader, serving as Queen and then Senator of Naboo -- and was also handy with a blaster. Despite her ideals and all she did for the cause of peace, her secret, forbidden marriage to Jedi Anakin Skywalker would prove to have dire consequences for the galaxy."
+        }
+    },
+    {
+        "model": "character.character",
+        "pk": 6,
+        "fields": {
+            "name": "Cassian Andor",
+            "gender": "Male",
+            "specie": "Human",
+            "height": 1.85,
+            "description": "Cassian Andor has spent much of his life watching as the Empire lay waste to the galaxy. As part of his entry into the growing rebellion, he will undertake a dangerous mission to Aldhani and ultimately become an accomplished Alliance Intelligence officer, commanding respect from his rebel troops with his ability to keep a cool head under fire."
+        }
+    },
+    {
+        "model": "character.character",
+        "pk": 7,
+        "fields": {
+            "name": "Raymus Antilles",
+            "gender": "Male",
+            "specie": "Human",
+            "height": 1.88,
+            "description": "A human male, Raymus Antilles hailed from the influential and peaceful planet of Alderaan. He was schooled in diplomacy and became a capable starship pilot. Eventually, he came to work for the House of Organa, being entrusted to transport its members across the galaxy. As such, he served in the command staff of Senator Bail Prestor Organa, husband to Queen Breha of Alderaan. Towards the end of the Clone Wars, Antilles piloted the CR70 corvette Tantive III for Bail."
+        }
+    },
+    {
+        "model": "character.character",
+        "pk": 8,
+        "fields": {
+            "name": "Wedge Antilles",
+            "gender": "Male",
+            "specie": "Human",
+            "height": 1.7,
+            "description": "A talented young rebel pilot from Corellia, Wedge Antilles survived the attack on the first Death Star to become a respected veteran of Rogue Squadron. He piloted a snowspeeder in the defense of Echo Base on Hoth, and led Red Squadron in the rebel attack on the second Death Star above Endor."
+        }
+    },
+    {
+        "model": "character.character",
+        "pk": 9,
+        "fields": {
+            "name": "Ponda Baba",
+            "gender": "Male",
+            "specie": "Aqualish",
+            "height": 1.85,
+            "description": "A burly Aqualish thug, Ponda Baba smuggled spice for Jabba the Hutt alongside his friend Dr. Cornelius Evazan, a murderous former surgeon Ponda had rescued from a bounty hunter. Ponda was one of the alien barflies escaping the heat of Tatooine's twin suns when Luke Skywalker and Obi-Wan Kenobi visited the Mos Eisley Cantina. Bored and looking for excitement, Ponda picked a fight with Luke, which Evazan quickly escalated. But the two bullies had picked the wrong target - Obi-Wan interceded, taking action when Ponda and Evazan refused to back down. The old Jedi's lightsaber left Evazan dead and Ponda missing an arm, ending the quarrel rather decisively."
+        }
+    },
+    {
+        "model": "character.character",
+        "pk": 10,
+        "fields": {
+            "name": "Val",
+            "gender": "Female",
+            "specie": "Human",
+            "height": 1.57,
+            "description": "A no-nonsense and occasionally prickly woman who is a crack shot with a blaster rifle, Val may be the most even-headed and capable member of Tobias Beckett's ragtag crew of scoundrels."
+        }
+    },
+    {
+        "model": "character.character",
+        "pk": 11,
+        "fields": {
+            "name": "Sio Bibble",
+            "gender": "Male",
+            "specie": "Human",
+            "height": 1.79,
+            "description": "Sio Bibble was the outspoken governor of Naboo. When the Trade Federation brazenly blockaded the trade routes to the small pastoral world, Bibble was among the first to suspect invasion. His suspicions proved correct. Bibble, like the rest of the Naboo citizenry, was taken captive by the mechanized armies of the Trade Federation. Queen Amidala fled to Coruscant with the help of Jedi ambassadors to secure aid from Senator Palpatine. Bibble stayed behind, to placate the Neimoidian invaders and to represent the besieged people. Nute Gunray delighted in toying with Bibble, taunting him about the dire state of the Naboo populace. After Naboo was liberated, Bibble attended the parade celebrating the newfound freedom."
+        }
+    },
+    {
+        "model": "character.character",
+        "pk": 12,
+        "fields": {
+            "name": "Depa Billaba",
+            "gender": "Female",
+            "specie": "Human",
+            "height": 1.68,
+            "description": "A Chalactan Jedi, Depa Billaba served on the Jedi Council in the final years of the Republic. She witnessed the discovery of Anakin Skywalker, whom Qui-Gon Jinn believed to be the Chosen One, and tried to determine the will of the Force as the galaxy slid into tumult and war. During the Clone Wars Billaba took Caleb Dume on as her Padawan, but was unable to finish his training before the dreaded Order 66 ended her life on Kaller."
+        }
+    },
+    {
+        "model": "character.character",
+        "pk": 13,
+        "fields": {
+            "name": "Jar Jar Binks",
+            "gender": "Male",
+            "specie": "Gungan",
+            "height": 1.96,
+            "description": "A clumsy, well-meaning Gungan outcast on Naboo, Jar Jar Binks struggled to prove his worth throughout his life. Putting his awkward past behind him, Jar Jar left the swamps of Naboo to enter the even murkier waters of Coruscant politics, becoming a representative for his people in the galactic capital. There, his best intentions and eagerness to serve were exploited by scheming Senators and others in positions of power."
+        }
+    },
+    {
+        "model": "character.character",
+        "pk": 14,
+        "fields": {
+            "name": "Zorii Bliss",
+            "gender": "Female",
+            "specie": "Human",
+            "height": 1.62,
+            "description": "Zorii Bliss, also known as Zorii Wynn, was a human female native to the frigid planet Kijimi. She was the leader of the Spice Runners of Kijimi. During the war between the First Order and the Resistance, Bliss was neutral, and she spent time in Kijimi's Thieves' Quarter. She shared a past connection with Poe Dameron as he was once a spice runner along with her, but Poe Dameron left the group and abandoned Bliss. The two would meet again when Dameron led Resistance operatives to Kijimi to find the hidden world Exegol. After the destruction of Kijimi, Bliss participated in the Battle of Exegol, which saw the destruction of the Sith Eternal's fleet, the Final Order."
+        }
+    },
+    {
+        "model": "character.character",
+        "pk": 15,
+        "fields": {
+            "name": "Bossk",
+            "gender": "Male",
+            "specie": "Trandoshan",
+            "height": 2.06,
+            "description": "One of the most feared bounty hunters of the galaxy, Bossk used his natural Trandoshan hunting instincts to capture his prey. During the Clone Wars, the red-eyed reptilian partnered with Aurra Sing, Castas and young Boba Fett. Bossk didn't care much for vendettas or politics. He was in it to get paid. After a brief stint in a Republic prison, Bossk continued his partnership with Fett, becoming a bodyguard to the teen bounty hunter. Decades later, Bossk answered Darth Vader's call to capture the Millennium Falcon after the Battle of Hoth, an assignment that put him in direct competition with Boba."
+        }
+    },
+    {
+        "model": "character.character",
+        "pk": 16,
+        "fields": {
+            "name": "Lando Calrissian",
+            "gender": "Male",
+            "specie": "Human",
+            "height": 1.78,
+            "description": "Lando Calrissian may have come late to the fight against the Empire, but his role in destroying the second Death Star cemented his reputation as a hero. In his youth, Lando was a sportsman seeking a fortune at the sabacc tables. After he lost his beloved ship to Han Solo, Lando spent years living the high life and pursuing get-rich-quick schemes, with uneven results. He went semi-respectable as the baron administrator of Cloud City, only to be drawn into the fight against the Empire. After a personal tragedy, Lando sought solace in isolation on Pasaana, unaware that the galaxy would need him again."
+        }
+    },
+    {
+        "model": "character.character",
+        "pk": 17,
+        "fields": {
+            "name": "Chewbacca",
+            "gender": "Male",
+            "specie": "Wookiee",
+            "height": 2.28,
+            "description": "A legendary Wookiee warrior and Han Solo's longtime co-pilot, Chewbacca continues to serve as faithful first mate to carry out daring missions against the First Order behind the controls of the Millennium Falcon. Known as Chewie to his closest friends, he was part of a core group of rebels who restored freedom to the galaxy during the reign of the Galactic Empire. Known for his short temper and accuracy with a bowcaster, Chewie also has a big heart and unwavering loyalty to his friends."
+        }
+    },
+    {
+        "model": "character.character",
+        "pk": 18,
+        "fields": {
+            "name": "Clone Commander Cody",
+            "gender": "Male",
+            "specie": "Clone",
+            "height": 1.83,
+            "description": "A natural and practical leader in the clone army, Cody was a good fit for General Kenobi, to whom he was particularly loyal. Cody's keen ability to strategize, combined with his fierce combat style in the heat of battle, earned him the respect of the Jedi, and of his fellow clones as well. He often worked with Captain Rex, with whom he became friends. Cody enjoyed a close relationship with Kenobi, often sharing a tension-busting joke with him during intense moments on the battlefield. When Darth Sidious gave Order 66, however, Cody's loyalty to Kenobi was eclipsed by his clone indoctrination, and he ordered his troops to fire on the Jedi."
+        }
+    },
+    {
+        "model": "character.character",
+        "pk": 19,
+        "fields": {
+            "name": "Kaydel Ko Connix",
+            "gender": "Female",
+            "specie": "Human",
+            "height": 1.55,
+            "description": "A lieutenant at the D'Qar Resistance base, Kaydel Connix coordinated communications during the Starkiller Base raid. She then helped organize the evacuation of D'Qar and served aboard the Raddus. Connix shared Poe Dameron's misgivings about Vice Admiral Holdo, conspiring with the starfighter ace against their new commander and joining his brief-lived mutiny. She survived the Battle of Crait, escaping with the remnants of the Resistance."
+        }
+    },
+    {
+        "model": "character.character",
+        "pk": 20,
+        "fields": {
+            "name": "Salacious B. Crumb",
+            "gender": "Male",
+            "specie": "Kowakian monkey-lizard",
+            "height": 0.7,
+            "description": "A Kowakian monkey-lizard with a shrill cackle, Salacious Crumb sat on Jabba's dais, stealing bits of food and mimicking the Hutt, his courtiers, and visitors. The Hutt's noxious pet was the palace's unofficial court jester, tolerated because his antics amused Jabba, and because of his unwavering support for his master."
+        }
+    },
+    {
+        "model": "character.character",
+        "pk": 21,
+        "fields": {
+            "name": "Figrin D'an",
+            "gender": "Male",
+            "specie": "Bith",
+            "height": 1.79,
+            "description": "Figrin D'an was the rocking frontman for the all-Bith band 'The Modal Nodes.' His deft playing of the Kloo Horn for the band earned him the nickname “Fiery” Figrin. Playing their most recognizable tune in the Mos Eisley cantina, they were interrupted briefly when Obi-Wan Kenobi attacked Ponda Boba and Dr. Cornelius Evazan."
+        }
+    },
+    {
+        "model": "character.character",
+        "pk": 22,
+        "fields": {
+            "name": "Poe Dameron",
+            "gender": "Male",
+            "specie": "Human",
+            "height": 1.72,
+            "description": "A Resistance starfighter ace, Poe Dameron is one of Leia Organa's most-trusted operatives. He can fly anything - which is fortunate given how often his headstrong nature leads him into trouble. Poe leads the attack that destroys Starkiller Base, but soon finds himself on the run from the First Order. Sidelined without his beloved X-wing, he learns tough lessons about leadership, heroism and sacrifice. Those lessons will prove essential in rebuilding the Resistance before a showdown with the forces of evil at Exegol."
+        }
+    },
+    {
+        "model": "character.character",
+        "pk": 23,
+        "fields": {
+            "name": "Biggs Darklighter",
+            "gender": "Male",
+            "specie": "Human",
+            "height": 1.83,
+            "description": "Biggs Darklighter grew up on Tatooine with Luke Skywalker, and shared his friend's dreams of escaping the dull desert world. After graduating from the Imperial Academy, he defected from the Empire's service to join the Rebellion. He and Luke were reunited at Yavin 4's Rebel base, and flew together against the Death Star. Luke returned from that mission as a hero, but Biggs did not survive."
+        }
+    },
+    {
+        "model": "character.character",
+        "pk": 24,
+        "fields": {
+            "name": "Dengar",
+            "gender": "Male",
+            "specie": "Human",
+            "height": 1.87,
+            "description": "Crude and slovenly, Dengar was nonetheless an effective bounty hunter. While some hunters prided themselves on finesse and style, Dengar preferred firepower and destruction. Despite his scruffy-looking and battered exterior, Dengar thought highly of himself, enough to make blunt passes at shapely females that caught his eye. Despite these obnoxious qualities, Boba Fett enjoyed working with Dengar and held him in high regard due to his proven track record in hunting down prey."
+        }
+    },
+    {
+        "model": "character.character",
+        "pk": 25,
+        "fields": {
+            "name": "DJ",
+            "gender": "Male",
+            "specie": "Human",
+            "height": 1.88,
+            "description": "An amoral thief and talented slicer, DJ dwells in the shadows thrown off by Canto Bight's glitz, stealing whatever he needs and resolutely refusing to take sides in the growing conflict between the First Order and the Resistance."
+        }
+    },
+    {
+        "model": "character.character",
+        "pk": 26,
+        "fields": {
+            "name": "Lott Dod",
+            "gender": "Male",
+            "specie": "Neimoidian",
+            "height": 1.9,
+            "description": "To hear Lott Dod tell it, the actions of Nute Gunray did not reflect the true intents of the Trade Federation, which remained loyal to the Galactic Republic. Sure, the Separatist Alliance did use Trade Federation starships and battle droids as part of their fighting forces in the Clone Wars, but this was equipment legitimately purchased in the open market. The Trade Federation was committed to commerce across the entire galaxy, and had no interest in getting caught up in territorial wars, Dodd would say. In truth, the Senator received a healthy income to ensure both sides of the war stay well equipped."
+        }
+    },
+    {
+        "model": "character.character",
+        "pk": 27,
+        "fields": {
+            "name": "Jan Dodonna",
+            "gender": "Male",
+            "specie": "Human",
+            "height": 1.82,
+            "description": "General Jan Dodonna serves as the military leader of the rebel base on Yavin 4. His calm demeanor hides an incisive, strategic mind that serves the Rebellion well."
+        }
+    },
+    {
+        "model": "character.character",
+        "pk": 28,
+        "fields": {
+            "name": "Count Dooku",
+            "gender": "Male",
+            "specie": "Human",
+            "height": 1.93,
+            "description": "Count Dooku was a menacing Sith Lord and central figure in the Clone Wars. Once a Jedi -- trained by Yoda -- he became disillusioned with the Jedi Order and thirsted for greater power. Dooku voluntarily left the light side behind and became Darth Sidious' dark side disciple, taking the secret name Darth Tyranus and leading the Separatist army. Dooku advanced Sidious's secret plot to take over the galaxy, but forgot that betrayal is the nature of the Sith."
+        }
+    },
+    {
+        "model": "character.character",
+        "pk": 29,
+        "fields": {
+            "name": "Cin Drallig",
+            "gender": "Male",
+            "specie": "Human",
+            "height": 1.74,
+            "description": "An esteemed Jedi Master and a swordsman of great skill, Cin Drallig was the head of security for the Jedi Temple on Coruscant. He is in command of the Temple Guard assignments, and also serves as a lightsaber instructor, as all veteran Jedi are encouraged to pass on what they have learned to a new generation of Padawan learners. Though it smacks of disrespect, Drallig has earned the unflattering nickname of 'the Troll' among the Order."
+        }
+    },
+    {
+        "model": "character.character",
+        "pk": 30,
+        "fields": {
+            "name": "Luke Skywalker",
+            "gender": "Male",
+            "specie": "Human",
+            "height": 1.72,
+            "description": "Luke Skywalker was a Tatooine farmboy who rose from humble beginnings to become one of the greatest Jedi the galaxy has ever known. Along with his friends Princess Leia and Han Solo, Luke battled the evil Empire, discovered the truth of his parentage, and ended the tyranny of the Sith. A generation later, the location of the famed Jedi master was one of the galaxy's greatest mysteries. Haunted by Ben Solo's fall to evil and convinced the Jedi had to end, Luke sought exile on a distant world, ignoring the galaxy's pleas for help. But his solitude would be interrupted – and Luke Skywalker had one final, momentous role to play in the struggle between good and evil."
+        }
+    },
+    {
+        "model": "character.character",
+        "pk": 31,
+        "fields": {
+            "name": "Leia Organa",
+            "gender": "Female",
+            "specie": "Human",
+            "height": 1.5,
+            "description": "Princess Leia Organa was one of the greatest leaders of the Rebel Alliance, fearless on the battlefield and dedicated to ending the Empire’s tyranny. Daughter of Padmé Amidala and Anakin Skywalker, sister of Luke Skywalker, and with a soft spot for scoundrels, Leia ranked among the galaxy’s great heroes. But life under the New Republic proved difficult for her. Sidelined by a new generation of political leaders, she struck out on her own to oppose the First Order as founder of the Resistance. These setbacks in her political career were accompanied by more personal losses, which she endured with her seemingly inexhaustible will."
+        }
+    },
+    {
+        "model": "character.character",
+        "pk": 32,
+        "fields": {
+            "name": "Obi-Wan Kenobi",
+            "gender": "Male",
+            "specie": "Human",
+            "height": 1.82,
+            "description": "A legendary Jedi Master, Obi-Wan Kenobi was a noble man and gifted in the ways of the Force. He trained Anakin Skywalker, served as a general in the Republic Army during the Clone Wars, and guided Luke Skywalker as a mentor."
+        }
+    },
+    {
+        "model": "character.character",
+        "pk": 33,
+        "fields": {
+            "name": "Han Solo",
+            "gender": "Male",
+            "specie": "Human",
+            "height": 1.8,
+            "description": "Han Solo rose from an impoverished childhood on the mean streets of Corellia to become one of the heroes of the Rebel Alliance. As captain of the Millennium Falcon, Han and his co-pilot Chewbacca came to believe in the cause of galactic freedom, joining Luke Skywalker and Princess Leia Organa in the fight against the Empire. After the Battle of Endor, Han faced difficult times in a chaotic galaxy, leading to a shattering confrontation with his estranged son Ben."
+        }
+    },
+    {
+        "model": "character.character",
+        "pk": 34,
+        "fields": {
+            "name": "R2-D2",
+            "gender": "Droid",
+            "specie": "Astromech Droid",
+            "height": 1.09,
+            "description": "A reliable and versatile astromech droid, R2-D2 has served Padmé Amidala, Anakin Skywalker, and Luke Skywalker in turn, showing great bravery in rescuing his masters and their friends from many perils. A skilled starship mechanic and fighter pilot's assistant, he has an unlikely but enduring friendship with the fussy protocol droid C-3PO."
+        }
+    },
+    {
+        "model": "character.character",
+        "pk": 35,
+        "fields": {
+            "name": "C-3PO",
+            "gender": "Droid",
+            "specie": "Protocol Droid",
+            "height": 1.7,
+            "description": "C-3PO longs for more peaceful times, but his continued service to the Resistance - and his knowledge of more than seven million forms of communication - keeps the worry-prone droid in the frontlines of galactic conflict. Programmed for etiquette and protocol, Threepio was built by a young Anakin Skywalker, and has been a constant companion to astromech R2-D2. Over the years, he was involved in some of the galaxy’s most defining moments and thrilling battles. Since the Empire’s defeat, C-3PO has served Leia Organa, head of a Resistance spy ring aimed at undermining the First Order."
+        }
+    },
+    {
+        "model": "character.character",
+        "pk": 36,
+        "fields": {
+            "name": "Jyn Erso",
+            "gender": "Female",
+            "specie": "Human",
+            "height": 1.6,
+            "description": "Putting behind a checkered past by lending her skills to a greater cause, Jyn Erso is impetuous, defiant, and eager to bring the battle to the Empire. Used to operating alone, she finds higher purpose by taking on a desperate mission for the Rebel Alliance."
+        }
+    },
+    {
+        "model": "character.character",
+        "pk": 37,
+        "fields": {
+            "name": "Rey",
+            "gender": "Female",
+            "specie": "Human",
+            "height": 1.7,
+            "description": "Seemingly abandoned by her parents on Jakku, Rey grew up a scavenger amid the wreckage of war. Her life changed when she agreed to help a droid on an urgent mission for the Resistance. Rey discovered she was powerful in the Force, and sought out the vanished Jedi Master Luke Skywalker to train her. That ended in disappointment, as did her attempt to bring Kylo Ren back to the light. But the resilient Rey continued her training and learned the truth about her parentage and her mysterious connection with Kylo. She then faced her greatest test: a confrontation with fear and evil that would determine the galaxy’s fate."
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 1,
+        "fields": {
+            "character": 1,
+            "film": 3
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 2,
+        "fields": {
+            "character": 1,
+            "film": 4
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 3,
+        "fields": {
+            "character": 1,
+            "film": 5
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 4,
+        "fields": {
+            "character": 1,
+            "film": 6
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 5,
+        "fields": {
+            "character": 2,
+            "film": 3
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 6,
+        "fields": {
+            "character": 2,
+            "film": 7
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 7,
+        "fields": {
+            "character": 2,
+            "film": 9
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 8,
+        "fields": {
+            "character": 3,
+            "film": 5
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 9,
+        "fields": {
+            "character": 3,
+            "film": 6
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 10,
+        "fields": {
+            "character": 4,
+            "film": 4
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 11,
+        "fields": {
+            "character": 4,
+            "film": 5
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 12,
+        "fields": {
+            "character": 4,
+            "film": 6
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 13,
+        "fields": {
+            "character": 5,
+            "film": 4
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 14,
+        "fields": {
+            "character": 5,
+            "film": 5
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 15,
+        "fields": {
+            "character": 5,
+            "film": 6
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 16,
+        "fields": {
+            "character": 6,
+            "film": 8
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 17,
+        "fields": {
+            "character": 7,
+            "film": 1
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 18,
+        "fields": {
+            "character": 7,
+            "film": 6
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 19,
+        "fields": {
+            "character": 7,
+            "film": 8
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 20,
+        "fields": {
+            "character": 8,
+            "film": 1
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 21,
+        "fields": {
+            "character": 8,
+            "film": 2
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 22,
+        "fields": {
+            "character": 8,
+            "film": 3
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 23,
+        "fields": {
+            "character": 8,
+            "film": 11
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 24,
+        "fields": {
+            "character": 9,
+            "film": 1
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 25,
+        "fields": {
+            "character": 9,
+            "film": 8
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 26,
+        "fields": {
+            "character": 10,
+            "film": 10
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 27,
+        "fields": {
+            "character": 11,
+            "film": 4
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 28,
+        "fields": {
+            "character": 11,
+            "film": 5
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 29,
+        "fields": {
+            "character": 11,
+            "film": 6
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 30,
+        "fields": {
+            "character": 12,
+            "film": 4
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 31,
+        "fields": {
+            "character": 12,
+            "film": 5
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 32,
+        "fields": {
+            "character": 13,
+            "film": 4
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 33,
+        "fields": {
+            "character": 13,
+            "film": 5
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 34,
+        "fields": {
+            "character": 13,
+            "film": 6
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 35,
+        "fields": {
+            "character": 14,
+            "film": 11
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 36,
+        "fields": {
+            "character": 15,
+            "film": 2
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 37,
+        "fields": {
+            "character": 15,
+            "film": 3
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 38,
+        "fields": {
+            "character": 16,
+            "film": 2
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 39,
+        "fields": {
+            "character": 16,
+            "film": 3
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 40,
+        "fields": {
+            "character": 16,
+            "film": 10
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 41,
+        "fields": {
+            "character": 16,
+            "film": 11
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 42,
+        "fields": {
+            "character": 17,
+            "film": 1
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 43,
+        "fields": {
+            "character": 17,
+            "film": 2
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 44,
+        "fields": {
+            "character": 17,
+            "film": 3
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 45,
+        "fields": {
+            "character": 17,
+            "film": 6
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 46,
+        "fields": {
+            "character": 17,
+            "film": 7
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 47,
+        "fields": {
+            "character": 17,
+            "film": 9
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 48,
+        "fields": {
+            "character": 17,
+            "film": 10
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 49,
+        "fields": {
+            "character": 17,
+            "film": 11
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 50,
+        "fields": {
+            "character": 18,
+            "film": 6
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 51,
+        "fields": {
+            "character": 19,
+            "film": 7
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 52,
+        "fields": {
+            "character": 19,
+            "film": 9
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 53,
+        "fields": {
+            "character": 20,
+            "film": 3
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 54,
+        "fields": {
+            "character": 21,
+            "film": 1
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 55,
+        "fields": {
+            "character": 22,
+            "film": 7
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 56,
+        "fields": {
+            "character": 22,
+            "film": 9
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 57,
+        "fields": {
+            "character": 22,
+            "film": 11
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 58,
+        "fields": {
+            "character": 23,
+            "film": 1
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 59,
+        "fields": {
+            "character": 24,
+            "film": 2
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 60,
+        "fields": {
+            "character": 24,
+            "film": 3
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 61,
+        "fields": {
+            "character": 25,
+            "film": 9
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 62,
+        "fields": {
+            "character": 26,
+            "film": 4
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 63,
+        "fields": {
+            "character": 27,
+            "film": 1
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 64,
+        "fields": {
+            "character": 27,
+            "film": 8
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 65,
+        "fields": {
+            "character": 28,
+            "film": 5
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 66,
+        "fields": {
+            "character": 28,
+            "film": 6
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 67,
+        "fields": {
+            "character": 29,
+            "film": 6
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 68,
+        "fields": {
+            "character": 30,
+            "film": 1
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 69,
+        "fields": {
+            "character": 30,
+            "film": 2
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 70,
+        "fields": {
+            "character": 30,
+            "film": 3
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 71,
+        "fields": {
+            "character": 30,
+            "film": 6
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 72,
+        "fields": {
+            "character": 30,
+            "film": 7
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 73,
+        "fields": {
+            "character": 30,
+            "film": 9
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 74,
+        "fields": {
+            "character": 30,
+            "film": 11
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 75,
+        "fields": {
+            "character": 31,
+            "film": 1
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 76,
+        "fields": {
+            "character": 31,
+            "film": 2
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 77,
+        "fields": {
+            "character": 31,
+            "film": 3
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 78,
+        "fields": {
+            "character": 31,
+            "film": 6
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 79,
+        "fields": {
+            "character": 31,
+            "film": 7
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 80,
+        "fields": {
+            "character": 31,
+            "film": 8
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 81,
+        "fields": {
+            "character": 31,
+            "film": 9
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 82,
+        "fields": {
+            "character": 32,
+            "film": 1
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 83,
+        "fields": {
+            "character": 32,
+            "film": 2
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 84,
+        "fields": {
+            "character": 32,
+            "film": 3
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 85,
+        "fields": {
+            "character": 32,
+            "film": 4
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 86,
+        "fields": {
+            "character": 32,
+            "film": 5
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 87,
+        "fields": {
+            "character": 32,
+            "film": 6
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 88,
+        "fields": {
+            "character": 33,
+            "film": 1
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 89,
+        "fields": {
+            "character": 33,
+            "film": 2
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 90,
+        "fields": {
+            "character": 33,
+            "film": 3
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 91,
+        "fields": {
+            "character": 33,
+            "film": 7
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 92,
+        "fields": {
+            "character": 33,
+            "film": 10
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 93,
+        "fields": {
+            "character": 33,
+            "film": 11
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 94,
+        "fields": {
+            "character": 34,
+            "film": 1
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 95,
+        "fields": {
+            "character": 34,
+            "film": 2
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 96,
+        "fields": {
+            "character": 34,
+            "film": 3
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 97,
+        "fields": {
+            "character": 34,
+            "film": 4
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 98,
+        "fields": {
+            "character": 34,
+            "film": 5
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 99,
+        "fields": {
+            "character": 34,
+            "film": 6
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 100,
+        "fields": {
+            "character": 34,
+            "film": 7
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 101,
+        "fields": {
+            "character": 34,
+            "film": 8
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 102,
+        "fields": {
+            "character": 34,
+            "film": 9
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 103,
+        "fields": {
+            "character": 34,
+            "film": 11
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 104,
+        "fields": {
+            "character": 35,
+            "film": 1
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 105,
+        "fields": {
+            "character": 35,
+            "film": 2
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 106,
+        "fields": {
+            "character": 35,
+            "film": 3
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 107,
+        "fields": {
+            "character": 35,
+            "film": 4
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 108,
+        "fields": {
+            "character": 35,
+            "film": 5
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 109,
+        "fields": {
+            "character": 35,
+            "film": 6
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 110,
+        "fields": {
+            "character": 35,
+            "film": 7
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 111,
+        "fields": {
+            "character": 35,
+            "film": 8
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 112,
+        "fields": {
+            "character": 35,
+            "film": 9
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 113,
+        "fields": {
+            "character": 35,
+            "film": 11
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 114,
+        "fields": {
+            "character": 36,
+            "film": 8
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 115,
+        "fields": {
+            "character": 37,
+            "film": 7
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 116,
+        "fields": {
+            "character": 37,
+            "film": 9
+        }
+    },
+    {
+        "model": "character.character_films",
+        "pk": 117,
+        "fields": {
+            "character": 37,
+            "film": 11
+        }
+    }
+]

@@ -1,0 +1,410 @@
+[
+    {
+        "model": "planet.planet",
+        "pk": 1,
+        "fields": {
+            "name": "Ahch-To",
+            "description": "An uncharted world located deep in the galaxy's Unknown Regions, Ahch-To is the world where the Jedi Order was founded, and its sacred island is the site of the first Jedi Temple. Luke Skywalker discovered the lost world after a long search, and chose it as his place of exile -- only to have Rey find her way to his lonely island."
+        }
+    },
+    {
+        "model": "planet.planet",
+        "pk": 2,
+        "fields": {
+            "name": "Alderaan",
+            "description": "If ever one needed an example of the irredeemable evil of the Empire, look no further than the shattered remains of Alderaan. A peaceful world of lush valleys and snow-capped mountains, Alderaan was once regarded for its natural beauty, its tranquility, and the sophistication of its arts and culture. Before the Imperial uprising, Alderaan was represented in the waning days of the Republic by such venerated politicians as Bail Organa. In fact, Alderaan was one of the earliest supporters of the Alliance to Restore the Republic, though its officials prudently kept all ties to the Rebellion secret. Despite such discretion, the Empire knew it to be a haven of rebel activity, making it a target of reprisal as soon as the Death Star was operational."
+        }
+    },
+    {
+        "model": "planet.planet",
+        "pk": 3,
+        "fields": {
+            "name": "Anoat",
+            "description": "Anoat was connected to the planet Sullust by the Incisor Sidestep hyperspace route and the Ring of Kafrene mining colony by the Corellian Trade Spine, which also continued on from Anoat out toward Wild Space."
+        }
+    },
+    {
+        "model": "planet.planet",
+        "pk": 4,
+        "fields": {
+            "name": "Bespin",
+            "description": "Secluded from galactic turmoil by its location in a little-visited sector of space, Bespin is an astrophysical rarity. An immense gas giant surrounded by a number of moons, the planet contains a band of habitable atmosphere among its endless clouds. In this stratum of life, enterprising prospectors have established floating mining complexes devoted to extracting valuable gasses from deep within the planet. The most well known of these ventures is the opulent Cloud City, formerly under the administration of Lando Calrissian. During the tail end of the Galactic Civil War, the Empire garrisoned Bespin and took over Cloud City, though the outpost and the planet enjoyed freedom after the defeat of the Emperor at the Battle of Endor."
+        }
+    },
+    {
+        "model": "planet.planet",
+        "pk": 5,
+        "fields": {
+            "name": "Cantonica",
+            "description": "Located in the Corporate Sector, Cantonica would be just another forlorn, beige desert planet if not for the presence of the ultra-wealthy resort city of Canto Bight, which draws well-heeled tourists and high-rolling gamblers from across the galaxy."
+        }
+    },
+    {
+        "model": "planet.planet",
+        "pk": 6,
+        "fields": {
+            "name": "Cato Neimoidia",
+            "description": "A weathly Neimoidian colony world, Cato Neimoidia's jewelled palaces and opulent bridge-cities were the pride and joy of Trade Federation barons, who sought constantly to one-up each other and dazzle guests with displays of ostentatious hospitality and luxury living."
+        }
+    },
+    {
+        "model": "planet.planet",
+        "pk": 7,
+        "fields": {
+            "name": "Corellia",
+            "description": "An ancient world in the galactic Core, Corellia is known for its people's wanderlust and its massive shipyards. Corellia played a key role in the expansion of galactic civilization, but that was thousands of years ago. It's now a faded industrial planet exploited by the Empire to build TIE fighters and Star Destroyers, while its formidable dockyard facilities are retrofitted to destroy all evidence of the Separatist forces. Corellians not born with money or influence hope to escape their homeworld in search of a better life."
+        }
+    },
+    {
+        "model": "planet.planet",
+        "pk": 8,
+        "fields": {
+            "name": "Coruscant",
+            "description": "Coruscant is the vibrant heart and capital of the galaxy during the age of the Empire, featuring a diverse mix of cultures and citizens spread over hundreds of levels. Once the home of the main Jedi Temple -- the central hub of Jedi training and learning for over a thousand generations and the repository of the Jedi Archives -- these traditions ended when the planet bore witness to Order 66."
+        }
+    },
+    {
+        "model": "planet.planet",
+        "pk": 9,
+        "fields": {
+            "name": "D'Qar",
+            "description": "A lush world in the Outer Rim, D'Qar is the principal base of General Leia Organa's Resistance. First surveyed by rebel pilots before the Battle of Endor, the planet's obscurity and lack of native intelligent life made it a perfect choice when Leia's new group needed a hidden base of operations. Resistance starfighters launched their attack on Starkiller Base from D'Qar, and were tracked back to the planet by the First Order. The Resistance hastily evacuated, narrowly escaping before the base was leveled by First Order turbolasers."
+        }
+    },
+    {
+        "model": "planet.planet",
+        "pk": 10,
+        "fields": {
+            "name": "Dagobah",
+            "description": "Home to Yoda during his final years, Dagobah was a swamp-covered planet strong with the Force -- a forgotten world where the wizened Jedi Master could escape the notice of Imperial forces. Characterized by its bog-like conditions and fetid wetlands, the murky and humid quagmire was undeveloped, with no signs of technology. Though it lacked civilization, the planet was teeming with life -- from its dense, jungle undergrowth to its diverse animal population. Home to a number of fairly common reptilian and amphibious creatures, Dagobah also boasted an indigenous population of much more massive -- and mysterious -- lifeforms. Surrounded by creatures generating the living Force, Yoda learned to connect with the deeper cosmic Force and waited for one who might bring about the return of the Jedi Order."
+        }
+    },
+    {
+        "model": "planet.planet",
+        "pk": 11,
+        "fields": {
+            "name": "Dantooine",
+            "description": "The site of the first base for the Rebel Alliance, Dantooine is an Outer Rim world, filled with lush forests and green landscapes. The Alliance would later leave Dantooine for a new home in an effort to stay one step ahead of the Empire."
+        }
+    },
+    {
+        "model": "planet.planet",
+        "pk": 12,
+        "fields": {
+            "name": "Eadu",
+            "description": "A rugged planet in the Outer Rim's Bheriz sector, Eadu is known -- to the extent it's known at all -- for its rain and native nerf herders. Few suspect the planet is home to a top-secret laboratory where Imperial scientists working for the Tarkin Initiative seek to unlock the secrets of kyber crystals and perfect a terrifying weapon."
+        }
+    },
+    {
+        "model": "planet.planet",
+        "pk": 13,
+        "fields": {
+            "name": "Endor",
+            "description": "Secluded in a remote corner of the galaxy, the forest moon of Endor would easily have been overlooked by history were it not for the decisive battle that occurred there. The lush, forest home of the Ewok species is the gravesite of Darth Vader and the Empire itself. It was here that the Rebel Alliance won its most crucial victory over the Galactic Empire."
+        }
+    },
+    {
+        "model": "planet.planet",
+        "pk": 14,
+        "fields": {
+            "name": "Exegol",
+            "description": "Deep in the Unknown Regions, Exegol remains one of the oldest Sith worlds, home to a massive citadel filled with ancient, crumbling statuary and a still viable enclave of Sith cultists intent on carrying out Darth Sidious's plot."
+        }
+    },
+    {
+        "model": "planet.planet",
+        "pk": 15,
+        "fields": {
+            "name": "Felucia",
+            "description": "Felucia is a world teeming with fungal life-forms and immense primitive plants. Much of the planet has a fetid, humid landscape overgrown by forests of bizarre wilderness. Many of the life-forms on Felucia are partially or completely translucent; they color the sunlight as the beams penetrate their skin. Others are opaque and imposing, like the enormous jungle rancors that roam the landscape. Beneath the hazy canopies of the enormous pitcher plants and leafy growths is a surreal color-drenched expanse. During the Clone Wars, the Jedi attempted to defend Felucia from those who would exploit the planet."
+        }
+    },
+    {
+        "model": "planet.planet",
+        "pk": 16,
+        "fields": {
+            "name": "Geonosis",
+            "description": "A harsh rocky world less than a parsec away from Tatooine, Geonosis is a ringed planet beyond the borders of the Galactic Republic. Its uninviting surface is made up of harsh, rocky desert, and the creatures that evolved on Geonosis are well equipped to survive in the brutal environment. The most advanced lifeform are the Geonosians, sentient insectoids that inhabit towering spire-hives. The Geonosians maintain large factories for the production of droids and weapons for the Separatist cause in the Clone Wars. After the Clone Wars, the Empire chose Geonosis as the construction site of the first Death Star, restricting travel to the system and sterilizing the planet's surface."
+        }
+    },
+    {
+        "model": "planet.planet",
+        "pk": 17,
+        "fields": {
+            "name": "Hosnian Prime",
+            "description": "The capital of the New Republic, Hosnian Prime is a cosmopolitan world on the outskirts of the galaxy's Core Worlds region. One of Mon Mothma's reforms in establishing the New Republic was that member worlds would host the Senate on a rotating basis, a sharp break from the millennia in which Coruscant was the center of galactic power. But Hosnian Prime's tenure as Senate seat makes it the target of a terrifying attack by the First Order."
+        }
+    },
+    {
+        "model": "planet.planet",
+        "pk": 18,
+        "fields": {
+            "name": "Hoth",
+            "description": "Hoth is the sixth planet in the remote system of the same name, and was the site of the Rebel Alliance's Echo Base. It is a world of snow and ice, surrounded by numerous moons, and home to deadly creatures like the wampa."
+        }
+    },
+    {
+        "model": "planet.planet",
+        "pk": 19,
+        "fields": {
+            "name": "Iego",
+            "description": "World on the fringes of the known galaxy, surrounded by a thousand moons. Lovely creatures referred to as 'Angels' are known to inhabit the moons."
+        }
+    },
+    {
+        "model": "planet.planet",
+        "pk": 20,
+        "fields": {
+            "name": "Jakku",
+            "description": "A harsh desert world, Jakku is a lawless place that's home to thieves, outlaws and refugees. During the final years of the Galactic Civil War, Jakku was the site of a secret Imperial research base and served as a jumping-off point for warships heading into the Unknown Regions. The Empire made a last stand above the frontier planet, leading to a pitched battle between rebel and Imperial fleets. Jakku's sandy wastes are littered with old wrecks, picked over by desperate scavengers searching for parts that can be salvaged and sold."
+        }
+    },
+    {
+        "model": "planet.planet",
+        "pk": 21,
+        "fields": {
+            "name": "Jestefad",
+            "description": "Jestefad was a large gas giant planet located in the Atravis sector of the Outer Rim Territories' Western Reaches portion, in the Mustafar system, at grid square L-19 of the Standard Galactic Grid. In close orbit of its smaller twin world of Mustafar, Jestefad's gravitational field subjected the volcanic planet to immense tidal forces, and its large electromagnetic field swamped the small volcanic planet, which created wild electrical storms, and was constantly trying to make Mustafar into its moon with its gravity. However, influence from a further second gas giant, Lefrani, pulled the smaller planet away from Jestefad, effectively turning Mustafar into an unstable world of magma and rock."
+        }
+    },
+    {
+        "model": "planet.planet",
+        "pk": 22,
+        "fields": {
+            "name": "Kamino",
+            "description": "Once purged from the otherwise complete Jedi Archives was all evidence of the mysterious world of Kamino. A lonely world beyond the Outer Rim and just south of the Rishi Maze, few could have predicted that Kamino would become a key contributor to a massive shift in political power in the final days of the Republic. Kamino is a planet of endless oceans and storms. Few features mark its surface, save for massive stilt-mounted cities wherein reside the planet's natural inhabitants, the Kaminoans. From Tipoca City, the planet's prime minister rules. Lama Su and Kamino's chief medical scientist Nala Se closely monitor the operations of Kamino's most prized export -- clones -- even after the Clone Wars reaches a conclusion."
+        }
+    },
+    {
+        "model": "planet.planet",
+        "pk": 23,
+        "fields": {
+            "name": "Kashyyyk",
+            "description": "Kashyyyk is the Wookiee homeworld, covered in dense forest. While Wookiees build their homes in the planet's trees, they are not a primitive species, and Kashyyyk architecture incorporates sophisticated technology. One of the last battles of the Clone Wars was fought here under the leadership of Yoda, with Wookiees and clones battling the Separatist droid army -- until the Emperor issued Order 66, commanding the clones to slaughter all Jedi. Yoda survived, however, with the help of natives Chewbacca and Tarfful, who used a hidden shuttle to evacuate the Jedi Master from the planet."
+        }
+    },
+    {
+        "model": "planet.planet",
+        "pk": 24,
+        "fields": {
+            "name": "Kessel",
+            "description": "Kessel is a noxious mining world where workers endure harrowing conditions extracting spice and coaxium for shipment offworld. The Empire sentenced many prisoners to be used as slave labor by the planet's economic rulers, the criminal Pyke Syndicate."
+        }
+    },
+    {
+        "model": "planet.planet",
+        "pk": 25,
+        "fields": {
+            "name": "Kijimi",
+            "description": "Frigid and mountainous, Kijimi is an inhospitable world where local criminals rule in the place of the New Republic or the First Order. Its remoteness and lack of cosmopolitan culture attract those on the run from the law, but its days as a haven for lawbreakers are numbered."
+        }
+    },
+    {
+        "model": "planet.planet",
+        "pk": 26,
+        "fields": {
+            "name": "Malastare",
+            "description": "Located in the galaxy's Mid Rim, Malastare was the homeworld of the irascible Dugs, who proved loyal but difficult members of the Galactic Republic. The planet's extensive fuel reserves made it vital to the Republic war machine, and it became a critical battlefield during the Clone Wars. As a result of a massive ground battle between the Republic and the Separatists, a monstrous creature known as the Zillo Beast was released in Malastare."
+        }
+    },
+    {
+        "model": "planet.planet",
+        "pk": 27,
+        "fields": {
+            "name": "Mimban",
+            "description": "Mimban's valuable minerals have made this muddy world a battlefield since the Clone Wars. Then, the Republic was fighting Separatist droids; now, the Imperial Army seeks to destroy Mimbanese insurgents. After getting kicked out of the Imperial Academy, Han Solo found himself dumped on Mimban as a mudtrooper. While there Han met an Imperial prisoner named Chewbacca, an encounter that would change his life."
+        }
+    },
+    {
+        "model": "planet.planet",
+        "pk": 28,
+        "fields": {
+            "name": "Mustafar",
+            "description": "A tiny, fiery planet in the Outer Rim, Mustafar maintains an erratic orbit between two gas giants. Mustafar is rich in unique and valuable minerals which have long been mined by the Tech Union. Its lava pits and rivers make this planet a dangerous habitat; its natives have burly, tough bodies that can withstand extreme heat. The planet became the backdrop for the fateful duel between Obi-Wan Kenobi and Anakin Skywalker. After the rise of the Empire, captured Jedi were brought to the volcanic world for interrogation and execution."
+        }
+    },
+    {
+        "model": "planet.planet",
+        "pk": 29,
+        "fields": {
+            "name": "Mygeeto",
+            "description": "A frigid Outer Rim planet marked by jagged crystalline landscapes, Mygeeto was the homeworld of the Lurmen and controlled by the InterGalactic Banking Clan. During the Outer Rim Sieges, Ki-Adi-Mundi and clone forces under Commander Bacara battled Separatist droids for control of Mygeeto. When Supreme Chancellor Palpatine issued Order 66, Bacara and his clones shot their Jedi General dead."
+        }
+    },
+    {
+        "model": "planet.planet",
+        "pk": 30,
+        "fields": {
+            "name": "Naboo",
+            "description": "An idyllic world close to the border of the Outer Rim Territories, Naboo is inhabited by peaceful humans known as the Naboo, and an indigenous species of intelligent amphibians called the Gungans. Naboo's surface consists of swampy lakes, rolling plains and green hills. Its population centers are beautiful -- Naboo's river cities are filled with classical architecture and greenery, while the underwater Gungan settlements are a beautiful display of exotic hydrostatic bubble technology."
+        }
+    },
+    {
+        "model": "planet.planet",
+        "pk": 31,
+        "fields": {
+            "name": "Numidian Prime",
+            "description": "The jungle planet of Numidian Prime is located on the edge of the Mid Rim, a warm and beautiful rainforest paradise that's also a haven for smugglers and thieves trying to avoid outstanding debts."
+        }
+    },
+    {
+        "model": "planet.planet",
+        "pk": 32,
+        "fields": {
+            "name": "Ossus",
+            "description": "Ossus, known as Idux while under the control of Xim's empire, was the third planet in the Adega system in the Auril sector. Known to the galaxy since before 25,000 BBY, when the Jedi expanded there from the planet Tython and established a Jedi Academy, Ossus would become a popular world of the Galactic Republic. This world would also become a place of great importance to the Jedi, as the site where they stored the sum of their knowledge, though such attentions came at a price. When the Jedi Knight Exar Kun turned to the dark side and became the Dark Lord of the Sith, catapulting the galaxy into the Great Sith War, he attacked Ossus, desiring Sith secrets hidden by the Jedi. During the events this action incited, the Cron Cluster was detonated, spreading a shockwave around the galaxy. Originally a rich, lush world, Ossus was ravaged into an arid and toxic planet when the wave struck the planet."
+        }
+    },
+    {
+        "model": "planet.planet",
+        "pk": 33,
+        "fields": {
+            "name": "Pasaana",
+            "description": "The desert planet of Pasaana is full of life and culture. Towering buttes of granite and sandstone disrupt long stretches of sun-bleached dunes and shrubland, creating shadowed valleys where water collects and life thrives, including the native Aki-Aki."
+        }
+    },
+    {
+        "model": "planet.planet",
+        "pk": 34,
+        "fields": {
+            "name": "Polis Massa",
+            "description": "An obscure planetoid deep in the Outer Rim, Polis Massa nonetheless occupied an important place in galactic history: The Skywalker twins were born there and given names by their mother Padmé Amidala before she died. And plans made in secret on Polis Massa would one day determine the fate of the galaxy."
+        }
+    },
+    {
+        "model": "planet.planet",
+        "pk": 35,
+        "fields": {
+            "name": "Saleucami",
+            "description": "A world of mixed terrain, from dank, swampy environments marked with strange bulbous plant-life, to arid deserts, Saleucami is an Outer Rim planet that remained untouched by the Clone Wars through most of the fighting. The settlers on Saleucami wished to avoid the destruction of warfare, and live out a simple existence at peace, only doing battle with the elements. Unfortunately, combat did come to Saleucami -- it was a major battle site during the Outer Rim Sieges of the Clone Wars -- and even after the end of the Clone Wars, the long arm of Imperial law sought to bring a new order to the once peaceful planet."
+        }
+    },
+    {
+        "model": "planet.planet",
+        "pk": 36,
+        "fields": {
+            "name": "Savareen",
+            "description": "A planet at one spur of the Kessel Run, Savareen is a world marked by desert landmasses amid huge oceans. The Pnakotic coast is home to an abandoned refinery used by criminals who have smuggled valuable minerals from Kessel."
+        }
+    },
+    {
+        "model": "planet.planet",
+        "pk": 37,
+        "fields": {
+            "name": "Scarif",
+            "description": "The planet Scarif would be a beautiful tropical paradise if not for the presence of a major Imperial military installation. Scarif is the principal construction facility for the vast Imperial war machine. The world is enveloped in impenetrable deflector shields and is heavily defended."
+        }
+    },
+    {
+        "model": "planet.planet",
+        "pk": 38,
+        "fields": {
+            "name": "Starkiller Base",
+            "description": "Deep in the Unknown Regions, the First Order constructed a superweapon that used an entire planet as its weapons platform. The deadly Starkiller harvested energy from its system's star, contained it within magnetic fields inside the planetary core, and then converted that energy into an ultra-powerful beam that blasted through hyperspace, able to sterilize the worlds of a distant star system with a single shot. Starkiller Base's first shot obliterated the New Republic capital of Hosnian Prime. The planet was then destroyed in a daring Resistance raid."
+        }
+    },
+    {
+        "model": "planet.planet",
+        "pk": 39,
+        "fields": {
+            "name": "Subterrel",
+            "description": "Subterrel was a planet within the Subterrel sector beyond the Outer Rim Territories, widely known for its extensive mining operations."
+        }
+    },
+    {
+        "model": "planet.planet",
+        "pk": 40,
+        "fields": {
+            "name": "Sullust",
+            "description": "A volcanic planet whose atmosphere was highly toxic forcing the native Sullustans to build technologically advanced subterranean cities. It was the base of Imperial factories and the SoroSuub corporation employed roughly half the population."
+        }
+    },
+    {
+        "model": "planet.planet",
+        "pk": 41,
+        "fields": {
+            "name": "Takodana",
+            "description": "A lush green world in the galaxy's Western Reaches, Takodana has long served as the base of operations for the diminutive pirate queen Maz Kanata, whose ancient castle is a haven for smugglers, brigands, scouts and spies from numerous worlds. Takodana has been largely spared war over the centuries, remaining neutral as galaxy-ruling regimes come and go around it."
+        }
+    },
+    {
+        "model": "planet.planet",
+        "pk": 42,
+        "fields": {
+            "name": "Tatooine",
+            "description": "Tatooine is harsh desert world orbiting twin suns in the galaxy's Outer Rim. In the days of the Empire and the Republic, many settlers scratched out a living on moisture farms, while spaceport cities such as Mos Eisley and Mos Espa served as home base for smugglers, criminals, and other rogues. Anakin Skywalker and Luke Skywalker both once called Tatooine home, although across the stars it was more widely known as a hive of scum and villainy ruled by the crime boss Jabba the Hutt."
+        }
+    },
+    {
+        "model": "planet.planet",
+        "pk": 43,
+        "fields": {
+            "name": "Teth",
+            "description": "A jungle planet far from the more commonly traveled hyperspace routes, Teth lies deep in the wilds of Hutt-dominated space. Extending from the dense canopy are enormous mesas, atop which Hutt settlers and other shifty types build sanctuaries. A converted B'omarr monk castle that became a Hutt stronghold was the apparent headquarters of mysterious kidnappers who captured Jabba the Hutt's son during the Clone Wars. When the Republic launched a concerted effort to rescue the Huttlet, they found Separatist forces defending the otherwise abandoned fortress."
+        }
+    },
+    {
+        "model": "planet.planet",
+        "pk": 44,
+        "fields": {
+            "name": "Utapau",
+            "description": "Ringed by numerous moons, the remote sanctuary of Utapau is a planet pitted with enormous sinkholes. Its windswept surface is dry and desert-like, but deep in the porous crust, at the bottom of the sinkholes are pools of life-giving water. Many of the sinkholes on one of the planet's small continents are lined with intricate cities that stretch deep into caves and crevices beneath the planet's surface, as well as mining operations that seek to uncover valuable minerals from the planet's depths."
+        }
+    },
+    {
+        "model": "planet.planet",
+        "pk": 45,
+        "fields": {
+            "name": "Vandor",
+            "description": "An unspoiled frontier world with soaring mountains and endless plains, Vandor is sparsely settled and lacking the technological infrastructure common on other planets. But Vandor's days as a refuge from the hurly-burly of galactic civilization are numbered: the Empire has a growing presence on the planet."
+        }
+    },
+    {
+        "model": "planet.planet",
+        "pk": 46,
+        "fields": {
+            "name": "Wobani",
+            "description": "A forlorn world in the Mid Rim's Bryx sector, Wobani is the site of Imperial Detention Center & Labor Camp LEG-817. Jyn Erso is serving a 20-year sentence on Wobani under the alias Liana Hallik when Alliance Pathfinders free her from captivity."
+        }
+    },
+    {
+        "model": "planet.planet",
+        "pk": 47,
+        "fields": {
+            "name": "Yavin Prime",
+            "description": "Yavin Prime, also known simply as Yavin, was an orange gas giant, nearly 200,000 kilometers in diameter, located in the Outer Rim Territories. Its clouds provided cover in battle, but death awaited any pilot who dove too far. It was orbited by twenty-six moons,[4] three of which could sustain humanoid life, including Yavin 4, Yavin 8, and Yavin 13. One of those moons, Yavin 4, was once home to the ancient Massassi warriors and was used by the Rebel Alliance."
+        }
+    },
+    {
+        "model": "planet.planet",
+        "pk": 48,
+        "fields": {
+            "name": "Lah'Mu",
+            "description": "Located in the Outer Rim's Raioballo sector, Lah'mu is a sparsely inhabited backwater whose rich soil and groundwater are contaminated by minerals and other elements. The Erso family fled to Lah'mu from Coruscant, hoping to find refuge from the Empire."
+        }
+    },
+    {
+        "model": "planet.planet",
+        "pk": 49,
+        "fields": {
+            "name": "Crait",
+            "description": "Now uninhabited, Crait is a mineral world dusted by a layer of white salt, reflecting the planet's sunlight. It was once the site of a Rebel Alliance outpost, and has become a haven for the fleeing Resistance forces."
+        }
+    },
+    {
+        "model": "planet.planet",
+        "pk": 50,
+        "fields": {
+            "name": "Carida",
+            "description": "Carida was a mountainous planet located in the Carida system within the Colonies region of the galaxy. During the Clone Wars, the Valor space station orbited the planet, while the era of the Galactic Empire saw Carida as home to an Imperial academy and a naval docking facility."
+        }
+    },
+    {
+        "model": "planet.planet",
+        "pk": 51,
+        "fields": {
+            "name": "Ajara",
+            "description": "Ajara was a gas giant planet located in the Cademimu sector of the galaxy's Outer Rim Territories, situated in a partially explored region of space off the Celanon Spur. It was orbited by the jungle moon Ajan Kloss, which had two moons itself. Ajara's intense magnetic field shielded Ajan Kloss from cosmic radiation."
+        }
+    }
+]

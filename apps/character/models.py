@@ -1,10 +1,11 @@
-from enum import unique
 from django.db import models
-from apps.planet.models import Planet
+from apps.film.models import Film
 
 # Create your models here.
 class Character(models.Model):
     name = models.CharField(max_length=200, unique=True)
+    gender = models.CharField(max_length=30)
+    specie = models.CharField(max_length=30)
     height = models.FloatField()
-    description = models.CharField(max_length=500)
-    home_planet = models.ForeignKey(Planet, on_delete=models.CASCADE)
+    description = models.TextField()
+    films = models.ManyToManyField(Film)
