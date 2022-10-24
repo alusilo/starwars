@@ -42,7 +42,7 @@ $ python manage.py loaddata apps/planet/character/initial_data.json
 First of all, to start the API we have to execute the following command:
 
 ```console
-python manage.py runserver
+$ python manage.py runserver
 ```
 
 or configure a web server to manage the Django application.
